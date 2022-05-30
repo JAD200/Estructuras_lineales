@@ -95,16 +95,30 @@ def show_list(list):
 
 
 if __name__ == '__main__':
-    # *  Code used to test the singly linked list
-    words = SinglyLinkedList()
-#   Try to add and delete specific data
-    words.append('spam')
-    words.append('eggs')
-    words.delete('eggs')
-    show_list(words)
-#   Search data
-    words.search('spam')
-    words.search('Holi')
-#   Clear the list
-    words.clear()
-    show_list(words)
+## *  Code used to test the singly linked list
+#     words = SinglyLinkedList()
+# #   Try to add and delete specific data
+#     words.append('spam')
+#     words.append('eggs')
+#     words.delete('eggs')
+#     show_list(words)
+# #   Search data
+#     words.search('spam')
+#     words.search('Holi')
+# #   Clear the list
+#     words.clear()
+#     show_list(words)
+
+# *  Challenge
+
+    an_array = [1, 5, 6, 4]
+    print(f'The array to convert\n{an_array}\n')
+    data = SinglyLinkedList()
+
+    for i in an_array:
+        data.append(i)
+        current = data.tail
+    print('Linked list')
+    while current:
+        print(f'Node data: {current.data}')
+        current = current.next
