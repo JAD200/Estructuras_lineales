@@ -60,6 +60,33 @@ class Stack():
         while self.top:
             self.pop()
 
+# *  Challenges
+    def search_element(self, data):
+        node_returned = self.top
+        if self.size > 0:
+            while node_returned and node_returned.data != data:
+                node_returned = node_returned.next
+
+            if node_returned is None:
+                print(f"Data '{data}' was not found!\n")
+            else:
+                print(f"Data '{data}' was found!\n")
+        else:
+            print('\nThe stack is empty\n')
+
+    def iter(self):
+        print('_' * 3, 'Stack data', '_' * 3)
+        node_returned = self.top
+        print('Size:', self.size, 'elements')
+        while node_returned:
+            current = node_returned.data
+            node_returned = node_returned.next
+            print('\t', current)
+
+    def another_clear(self):
+        self.top = None
+        self.size = 0
+        print('Stack emptied')
 
 """ Code use in the shell to test the code
 from stack import Stack
@@ -75,3 +102,16 @@ food.clear()
 food.peek()
 #?  Expected:   'The stack is empty'
 """
+if __name__ == '__main__':
+    food = Stack()
+    food.push('egg')
+    food.push('ham')
+    food.push('spam')
+
+    food.search_element('ham')
+    food.search_element('Nothing')
+
+    food.iter()
+    food.another_clear()
+    food.search_element('egg')
+    food.iter()
