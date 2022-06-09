@@ -12,8 +12,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.imgur.com/fDkhooA.png" alt="Logo" width="200" >
+  <a href="https://github.com/JAD200/Estructuras_lineales" target="blank" referrerpolicy="no-referrer">
+    <img src="https://i.imgur.com/fDkhooA.png" alt="Python logo" width="300" >
   </a>
 
 <h3 align="center">Estructuras lineales</h3>
@@ -21,7 +21,7 @@
   <p align="center">
     An insight in the lineal data structures with Python
     <br />
-    <a href="https://github.com/JAD200/Estructuras_lineales"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/JAD200/Estructuras_lineales" target="blank" referrerpolicy="no-referrer"><strong>Explore the docs »</strong></a>
 </div>
 
 
@@ -30,18 +30,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -90,7 +80,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Juan Agustin Di Pasquo - [@LinkedIn](https://linkedin.com/in/juan-agustin-di-pasquo-jad)
+Juan Agustin Di Pasquo - [@PlatziProfile](https://platzi.com/p/Juan_Di_Pasquo/)
 
 Project Link: [https://github.com/JAD200/Estructuras_lineales](https://github.com/JAD200/Estructuras_lineales)
 
